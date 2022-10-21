@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+body{
+    margin:0;
+    padding:0;
+    font-family: Silkscreen;
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px
+}
+.container{
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+nav ul, nav li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display: flex;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    color: crimson;
+}
+nav .active, nav a:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+#banner{
+    background-image: url('../images/img1.jpeg');
+    height: 670px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.banner_headline{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner_headline{
+    color: firebrick;
+    font-size: 60px;
+    text-shadow: 0px 1px 0px black;
+    margin: 0;
+    padding: 0;
+}
+
+.banner_options{
+    height: 210px;
+    display: flex;
+}
+
+.column{
+    flex-direction: column;
+}
+.banner_headline h2{
+    color: white;
+    font-size: 21px;
+    text-shadow: 0px 1px 0px black;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    max-width: 350px;
+}
+.banner1,.banner2,.banner3{
+    flex:1;
+    color: white;
+    padding: 20px;
+}
+.banner1{
+    background-color: darkmagenta;
+}
+.banner2{
+    background-color: turquoise;
+}
+.banner3{
+    background-color: plum;
+}
+.banner_title{
+    font-size: 20px;
+}
+.banner_desc{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.banner_options a{
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+#geral{
+    display: flex;
+    justify-content: center;
+}
+.content_title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.content_title_text{
+    font-size: 21px;
+    font-weight: bold;
+}
+.content_bar{
+    width: 50px;
+    height: 5;
+    background-color: red;
+    margin-top: 10px;
+}
+#rodape{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    line-height: 40px;
+    color: orangered;
+    font-size: 12px;
+    margin-top: 30px;
+}
