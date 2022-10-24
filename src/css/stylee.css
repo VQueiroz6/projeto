@@ -17,11 +17,13 @@ header{
 .logo{
     background-color: white;
     display: flex;
-    align-items: center;
+    align-items: center; 
+    justify-content: flex-start;
 }
 .menu{
     display: flex;
     align-items: center;
+    justify-content: end;
 }
 nav ul, nav li{
     list-style-type: none;
